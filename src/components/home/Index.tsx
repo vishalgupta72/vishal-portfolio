@@ -26,7 +26,7 @@ const Index = () => {
           {/* <Hello className="w-8 h-8 sm:w-12 sm:h-12" /> */}
         </div>
 
-        <h1 className="text-4xl sm:text-7xl font-sans mt-4">I'm Vishal</h1>
+        <h1 className="text-4xl sm:text-7xl font-sans mt-4">I&apos;m Vishal</h1>
         
         <div className="text-xl sm:text-2xl font-sans mt-4 min-h-[4rem]">
           <TypeAnimation
@@ -67,7 +67,7 @@ const Index = () => {
         <div className="relative w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] bg-gradient-to-br from-blue-500 via-green-500 rounded-full overflow-hidden">
           <Image
             src="/images/vishal.png"
-            alt="Vishal's professional portrait"
+            alt="Vishal&apos;s professional portrait"
             width={512}
             height={512}
             priority
