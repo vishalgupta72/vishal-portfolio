@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  scroll-behavior: smooth;
+  transition: scroll-behavior 2s;
+  scroll-padding-top: 5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,16 +21,54 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+  /* background-color: #0b1d2a; */
+  background: radial-gradient(
+    circle,
+    #0b1d2a 0%,
+    rgb(9, 67, 121) 0%,
+    rgb(13, 33, 39) 100%
+  );
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.svg-hover:hover .icons-svg {
+  /* https: //angel-rs.github.io/css-color-filter-generator/ */
+  filter: brightness(0) saturate(100%) invert(0%) sepia(46%) saturate(7050%) hue-rotate(67deg) brightness(78%) contrast(97%);
+}
+
+
+/* .wavy-navbar[data-active="true"]{
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-style: wavy;
+  text-decoration-color: #0eab50;
+}
+
+.wavy-navbar{
+  transition: 1s all;
+} */
+
+
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, rgb(31, 205, 95), rgb(0, 122, 204));
+  border-radius: 5px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, rgb(0, 122, 204), rgb(31, 205, 95));
 }
