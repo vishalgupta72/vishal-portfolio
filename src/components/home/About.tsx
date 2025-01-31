@@ -47,14 +47,14 @@ const About = () => {
           </div>
 
           <p>
-            Hi, I'm Vishal Gupta, a recent B.Tech graduate in Computer Science
+            Hi, I&apos;m Vishal Gupta, a recent B.Tech graduate in Computer Science
             and Engineering from Technocrats Institute of Technology, Bhopal
-            (2022). With a strong foundation in computer science, I'm passionate
+            (2022). With a strong foundation in computer science, I&apos;m passionate
             about CRM and full-stack development. 
             <br /><br />
             I have hands-on experience in <b>CRM</b> from my 4-month internship at DS Consult, Indore, and
             proficiency in <b>MERN stack development</b> from a 6-month training
-            program with InternShala (remote). I'm a motivated and dedicated
+            program with InternShala (remote). I&apos;m a motivated and dedicated
             individual, always looking to learn and grow. This portfolio
             showcases my projects, skills, and experiences.
           </p>
