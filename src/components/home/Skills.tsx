@@ -16,8 +16,8 @@ const skills = [
   { name: "Tailwind CSS", src: "/images/skills/tailwind-css.png" },
   { name: "Bootstrap", src: "/images/skills/bootstrap-css.png" },
   { name: "MySQL", src: "/images/skills/mysql.png" },
-  { name: "GitHub", src: "/images/skills/github.png" },
-  { name: "Git", src: "/images/skills/git-hub.png" },
+  { name: "Git", src: "/images/skills/github.png" },
+  { name: "GitHub", src: "/images/skills/git-hub.png" },
 ];
 
 const Skills = () => {

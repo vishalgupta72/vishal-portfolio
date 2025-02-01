@@ -13,22 +13,22 @@ const Footer = () => {
 
 
         <li key="linkedIn" className="svg-hover mx-3 hover:-translate-y-3 trnsition-all duration-500 hover:text-white hover:bg-blue-500 border hover:border-blue-500 p-2 rounded-lg">
-            <Link href="www.linkedin.com/in/vishalgupta72" target="_blank"><Linkedin /></Link>
+            <Link href="https://www.linkedin.com/in/vishalgupta72" target="_blank"><Linkedin /></Link>
         </li>
 
 
         <li key="github" className="svg-hover mx-3 hover:-translate-y-3 trnsition-all duration-500 hover:text-black hover:bg-white border p-2 rounded-lg">
-          <Link href="https://github.com/vishalgupta72?tab=repositories" target="_blank"><Github /></Link>
+          <Link href="https://www.github.com/vishalgupta72?tab=repositories" target="_blank"><Github /></Link>
         </li>
 
 
         <li key="twitter"  className="svg-hover mx-3 hover:-translate-y-3 trnsition-all duration-500 hover:text-white hover:bg-blue-500 border hover:border-blue-500 p-2 rounded-lg">
-         <Link href="https://www.twitter.com" target="_blank"><Twitter /> </Link>
+         <Link href="https://www.twitter.com/vishalguptaa72" target="_blank"><Twitter /> </Link>
         </li>
 
 
           <li key="instagram" className="svg-hover mx-3 hover:-translate-y-3 trnsition-all duration-500 hover:text-white border hover:border-0  p-2 rounded-lg hover:bg-gradient-to-tr from-yellow-500 via-red-500 to-blue-500">
-            <Link href="https://www.instagram.com" target="_blank"><Instagram /></Link>
+            <Link href="https://www.instagram.com/vishal.g72" target="_blank"><Instagram /></Link>
           </li>
 
           
