@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 
 const AnimateScale = ({ children }: any) => {
   const rootDiv = useRef<HTMLDivElement>(null);
-  const intersection = useRef<IntersectionObserver>(null);
+  const intersection = useRef<IntersectionObserver>();
 
   useEffect(() => {
     // use intersection observer to scale it the ref children when children intersecting and scale 0 when not
@@ -23,7 +23,7 @@ const AnimateScale = ({ children }: any) => {
     if (rootDiv.current && intersection.current) {
       [...rootDiv.current.children].forEach((child) => {
         console.log(child);
-        intersection.current.observe(child);
+        intersection.current?.observe(child);
         // child.classList.add("scale-0");
       });
     }
