@@ -47,7 +47,7 @@ const Index = () => {
         </div>
 
         <a
-          href="https://drive.google.com/uc?export=download&id=1BtRmBYxJOeAEta-cJQ5ng-gPfLkdjhCqa9q"
+          href="https://drive.google.com/file/d/1JNizx78rWzajBsrgfAHNX24ZGjXx5vq-/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 mt-8 rounded-full bg-blue-500 hover:bg-blue-600 text-white transition-colors duration-300"
