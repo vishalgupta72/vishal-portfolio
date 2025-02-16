@@ -64,7 +64,7 @@ const projectsData = [
       image: '/images/projects/apply4devs.png',
       tag: ["All", "ReactJS/NextJS"],
       gitUrl: "https://github.com/vishalgupta72/Apply4Devs",
-      previewUrl: "/",
+      previewUrl: "https://apply4-devs.vercel.app/",
       tech:" #reactjs #mongoDB #nodejs #expressjs"
     },
     {
